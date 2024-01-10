@@ -1,2 +1,3 @@
 # Facial-Recognition-using-Siamese-Network-
-Facial recognition with the help of siamese network
+It is an project focusing on improvement of facial recognition system with the help of siamese  network 
+
