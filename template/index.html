@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facio.io</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span><a href="index.html">Facio.io</a></span>
+            </div>
+            <div class="nav-cont">
+                <span><a href="index.html">Home</a></span>
+                <span><a href="home.html">Facio</a></span>
+                <span><a href="#footer">About</a></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+
+        <div class="container">
+            <div class="head">
+                <h2>Facial Recognition</h2>
+            </div>
+            <div class="content">
+                <h3>Siamese Network</h3>
+                <p>A Siamese network is a type of neural network architecture designed for tasks involving similarity or
+                    distance measurement between pairs of input data. It consists of two identical subnetworks (twins)
+                    that
+                    share the same set of weights and parameters. These subnetworks process two input instances (such as
+                    images or text embeddings) and produce feature vectors. The final output is typically obtained by
+                    measuring the similarity or dissimilarity between these feature vectors. Siamese networks are
+                    commonly
+                    used in tasks like image similarity, face verification, signature verification, and more, where the
+                    goal
+                    is to determine the degree of similarity between pairs of input data.</p>
+            </div>
+            <div class="siame-image">
+                <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*05hUCDHhnl4hdjqvdVTHtw.png"
+                    alt="siame-image">
+            </div>
+            <div id="ques">
+                <span>Want to try it?</span>
+            </div>
+
+            <div class="btn-cap">
+                <div id="processingAlert" class="alert alert-warning alert-dismissible fade show vis" role="alert">
+                    Processing image...
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <span id="msg">Please press capture button</span>
+                <video id="video" class="vid" autoplay playsinline muted></video>
+
+                <button class="button-86 cap-img" role="button">CAPTURE</button>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+    </main>
+    <footer id="footer">
+        <div class="fot-cont">
+
+            <div class="grid-cont">
+                <span class="box"><a href="#">What is AI?</a></span>
+                <span class="box"><a href="#">What is ML?</a></span>
+                <span class="box"><a href="#">What is Facial Recog?</a> </span>
+                <span class="box"><a href="#">How Neural Network work?</a></span>
+                <span class="box"><a href="#">what is CNN?</a> </span>
+                <span class="box"><a href="#">Gen AI</a></span>
+                <span class="box"><a href="#">Help</a></span>
+                <span class="box"><a href="#">Know More</a></span>
+                <span class="box"><a href="#">Contact</a></span>
+            </div>
+            <div class="fot-cont2">
+                <span id="span1">Facio</span>
+                <span id="span2">Copyright &copy; facio</span>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

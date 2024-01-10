@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+.container h1,h3{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    animation: fadein 5s;
+}
+.container img{
+    width: 900px;
+    filter: brightness(200%);
+}
+.heading h1{
+    font-size: 90px;
+}
+.heading h3{
+    margin-left: 10px;
+}
+.heading{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+
+.btn{
+    position: relative;
+    bottom: 200px;
+    left: 120px;
+    font-size: 20px;
+    animation: fadein 5s;
+}
+
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
